@@ -6,7 +6,7 @@ $secondary        : #009688;
 $tertiary         : #757575;
 $light            : #FFF;
 $dark             : #333;
-$text-dark        : #212121; 
+$text-dark        : #212121;
 $text-light       : $light;
 $code-background  : #F8F8F8;
 $overlay          : transparentize(#000, .5);
@@ -79,7 +79,7 @@ blockquote {
   background-color: $primary;
   vertical-align: middle;
   text-align: center;
-  &, h1, h2 { color: $text-light; }
+  &, h1, h2, h3 { color: $text-light; }
   h1 { font-size: $font-size-impact; }
 }
 
