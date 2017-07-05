@@ -16,7 +16,7 @@ class: impact
 
 ---
 # What is CSS Grid?
-definition from W3C spec
+- This CSS module defines a two-dimensional grid-based layout system, optimized for user interface design. In the grid layout model, the children of a grid container can be positioned into arbitrary slots in a predefined flexible or fixed-size layout grid.
 what does it mean for front end devs
 
 ---
