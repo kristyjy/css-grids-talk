@@ -34,37 +34,61 @@ class: impact
 > The specification describes a CSS box model optimized for user interface design. In the flex layout model, the children of a flex container can be laid out in any direction, and can “flex” their sizes, either growing to fill unused space or shrinking to avoid overflowing the parent. Both horizontal and vertical alignment of the children can be easily manipulated. Nesting of these boxes (horizontal inside vertical, or vertical inside horizontal) can be used to build layouts in two dimensions.
 
 ---
-# Grid vs Flexbox
+.col-12[
+# Let's Compare
+]
 
-### Key Differences
 --
 
-- 1 Dimensional vs 2 Dimensional
+.col-6[
+
+### Grid
+
+- 2 Dimensional
+- Children are Grid Items
+- Useful for complex grid-based designs
+]
+
+.col-6[
+
+### Flexbox
+
+- 1 Dimensional
+- Children can "Flex"
+- Useful for alignment
+]
+
 --
 
-- Flexible Size vs Grid
---
-
-- Use for alignment
+.col-12[
+### Both
+- Are awesome!
+- They can and **should** be used together!
+]
 
 ---
 # Browser Support
+<img src="/images/caniuse.jpg" alt="Can I Use Grid" width="800" />
+
+### But oh no IE and Edge!
+
+Though IE and Edge do not support the latest spec they do support the old syntax and can easily use a fallback until Microsoft finishes their implementation.
 
 ---
-# Let's Jump In!
+# Let's Get Started
 a simple use of grid
 
 ---
-# Our New Friends the FR Unit + the minmax Function
-explain how grids use FR w/ examples
+# Supporting All of the Browsers!
+grid example above using @supports for fallback
 
 ---
 # The Real Power of Grid
 show some complex grid examples
 
 ---
-# Supporting All of the Browsers!
-show complex grid example using @supports for fallback
+# Joining forces with Flexbox
+show complex grid example that also uses flexbox
 
 ---
 # References
@@ -79,62 +103,3 @@ show complex grid example using @supports for fallback
 class: impact
 
 # Questions?
-
----
-# The basics
-
-## Getting started
-
-Use [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to write your slides. Don't be afraid, it's really easy!
-
---
-
-## Making points
-
-Look how you can make *some* points:
---
-
-- Create slides with your **favorite text editor**
---
-
-- Focus on your **content**, not the tool
---
-
-- You can finally be **productive**!
-
----
-
-# There's more
-
-## Syntax highlighting
-
-You can also add `code` to your slides:
-```html
-<div class="impact">Some HTML code</div>
-```
-
-## CSS classes
-
-You can use .alt[shortcut] syntax to apply .big[some style!]
-
-...or just <span class="alt">HTML</span> if you prefer.
-
----
-
-# And more...
-
-## 12-column grid layout
-
-Use to the included **grid layout** classes to split content easily:
-.col-6[
-  ### Left column
-
-  - I'm on the left
-  - It's neat!
-]
-.col-6[
-  ### Right column
-
-  - I'm on the right
-  - I love it!
-]
