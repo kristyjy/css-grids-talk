@@ -1,15 +1,16 @@
 // Theme
 // ---------------------------------------------------------------------------
 
-$primary          : #3F51B5;
-$secondary        : #009688;
-$tertiary         : #757575;
+$primary          : #0C7489;
+$secondary        : #2E4057;
+$tertiary         : #119DA4;
 $light            : #FFF;
 $dark             : #333;
 $text-dark        : #212121;
 $text-light       : $light;
 $code-background  : #F8F8F8;
 $overlay          : transparentize(#000, .5);
+$slide-background : #FCF7F8;
 $font-size        : 28px;
 $font-size-impact : 128px;
 $font             : Arial, Helvetica, sans-serif;
@@ -43,7 +44,7 @@ img { vertical-align: inherit; }
 blockquote {
   border-left: 8px solid;
   padding-left: .5em;
-  color: $tertiary;
+  color: $secondary;
   text-align: left;
   margin: 1em 0;
   & > p { margin: 0; }
@@ -63,6 +64,7 @@ blockquote {
   padding: 1em 2em;
   color: $text-dark;
   background-size: cover;
+  background-color: $slide-background;
 }
 
 .remark-slide-number {

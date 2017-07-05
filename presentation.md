@@ -16,13 +16,36 @@ class: impact
 
 ---
 # What is CSS Grid?
-- This CSS module defines a two-dimensional grid-based layout system, optimized for user interface design. In the grid layout model, the children of a grid container can be positioned into arbitrary slots in a predefined flexible or fixed-size layout grid.
-what does it mean for front end devs
+--
+
+### Grid as defined by W3C
+> This CSS module defines a two-dimensional grid-based layout system, optimized for user interface design. In the grid layout model, the children of a grid container can be positioned into arbitrary slots in a predefined flexible or fixed-size layout grid.
+
+--
+
+### TLDR; (What I think of CSS Grids)
+> CSS Grids are native solution for complex and simple grid layouts alike and gives us the power to build things that were previously impossible with CSS alone.
+
+---
+# But what about Flexbox?
+--
+
+### Flexbox as defined by W3C
+> The specification describes a CSS box model optimized for user interface design. In the flex layout model, the children of a flex container can be laid out in any direction, and can “flex” their sizes, either growing to fill unused space or shrinking to avoid overflowing the parent. Both horizontal and vertical alignment of the children can be easily manipulated. Nesting of these boxes (horizontal inside vertical, or vertical inside horizontal) can be used to build layouts in two dimensions.
 
 ---
 # Grid vs Flexbox
-Compare W3C definitions
-explain times to use grid vs flexbox
+
+### Key Differences
+--
+
+- 1 Dimensional vs 2 Dimensional
+--
+
+- Flexible Size vs Grid
+--
+
+- Use for alignment
 
 ---
 # Browser Support
