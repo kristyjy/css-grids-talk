@@ -76,19 +76,44 @@ Though IE and Edge do not support the latest spec they do support the old syntax
 
 ---
 # Let's Get Started
-a simple use of grid
 
+A basic grid can be built with 2 or 3 properties:
+
+```css
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+```
+
+Full Example: [Example 1 - Simple Grid](https://codepen.io/kristyjy/pen/d9a4771c5c7170aa3834095898e91e21/)
 ---
 # Supporting All of the Browsers!
-grid example above using @supports for fallback
+
+This grid example is the save as above but uses @supports for fallback
+
+[Example 2 - Simple Grid with fallback](https://codepen.io/kristyjy/pen/9e2bddb28973e9da1f2c4fd0d9b8444f)
 
 ---
 # The Real Power of Grid
-show some complex grid examples
+
+CSS Grid comes with some fancy new properties and functions! It allows us to make a fully responsive grid with NO breakpoints!
+
+[Example 3 - Multi Size Grid - No Breakpoints!](https://codepen.io/kristyjy/pen/b9dfbfad63f940819a9f308ef6b93872)
 
 ---
-# Joining forces with Flexbox
-show complex grid example that also uses flexbox
+# My grid is smarter than your honors student!
+
+Using the rule:
+
+```css
+.grid {
+	grid-auto-flow: dense;
+}
+```
+
+[Example 4 - Auto Flow!](https://codepen.io/kristyjy/pen/e081e6c0395346b5ed84bb0c60edb384)
 
 ---
 # References
@@ -99,6 +124,7 @@ show complex grid example that also uses flexbox
 - [How the minmax() Function Works - Ire Aderinokun](https://bitsofco.de/how-the-minmax-function-works/)
 - [Should I use Grid or Flexbox? - Rachael Andrew](https://rachelandrew.co.uk/archives/2016/03/30/should-i-use-grid-or-flexbox/)
 - [Does CSS Grid Replace Flexbox? - Robin Rendle](https://css-tricks.com/css-grid-replace-flexbox/)
+- [Solving Problems With CSS Grid and Flexbox: The Card UI - Ian Yates](https://webdesign.tutsplus.com/tutorials/solving-problems-with-css-grid-and-flexbox-the-card-ui--cms-27468)
 ---
 class: impact
 
